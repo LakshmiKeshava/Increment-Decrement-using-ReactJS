@@ -1,0 +1,63 @@
+*{
+  background-color: rgba(213, 101, 187, 0.389);
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh; 
+}
+.box{
+  max-width: 30px;
+  padding: 25px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+.para{
+  border: 1px solid black;
+  max-width: 60px;
+  text-align: center;
+  height: 50px;
+  align-items: center;
+  padding: 50px;
+  padding-top: 50px;
+  background-color: rgb(30, 1, 18);
+  display: flex;
+  justify-content: center; 
+  color: white;
+  font-size: 70px;
+}
+
+.incriBtn{
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  background-color: rgb(124, 180, 72);
+  border-radius: 20px;
+  height: 70px;
+  width: 200px;
+}
+.decriBtn{
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  background-color: rgb(230, 7, 7);
+  border-radius: 20px;
+  height: 70px;
+  width: 200px;
+}
+.resetBtn{
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  background-color: rgb(161, 203, 221);
+  border-radius: 20px;
+  height: 70px;
+  width: 200px;
+}
+.buttons {
+  display: flex;
+  gap: 20px; 
+}
